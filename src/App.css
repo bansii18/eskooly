@@ -1,0 +1,38 @@
+/* app.css */
+
+body {
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* Unique animation for body content */
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+      background-color: #3498db; /* Blue color */
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      background-color: #3498db; /* Blue color */
+      opacity: 1;
+    }
+  }
+  
+  .slide-in{
+    /* background-color: aqua; */
+    animation: slideIn 0.5s ease-in-out;
+  }
+
+  body{
+    background-color: rgba(235, 224, 224, 0.411);
+  
+  }
+  
+
+    
+  
+  /* app.css */
+
+
+  
+  

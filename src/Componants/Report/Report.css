@@ -1,0 +1,116 @@
+@media(max-width:760px) {
+    .row-2 {
+        width: 830px;
+        display: none;
+    }
+
+
+    .class {
+        display: none;
+
+    }
+
+    /* /* .module-body{
+       width:1000px
+    } 
+    .arrange{
+        position: absolute;
+        top: 410px;
+        right: 260px;
+    }
+
+    .size{
+        width: 220px;
+        position: absolute;
+        top: 421px;
+        right: 34px;
+        
+    
+
+    }
+
+    .class{
+        margin:1px;
+        position: absolute;
+        left: -354px;
+        width:600px
+    }
+
+    .size-1{
+        width: 308px;
+     }
+    .size-2{
+        width: 600px;
+        position: absolute;
+        top: 41pc;
+    }
+
+
+    .part-1{
+        width: 600px;
+    }
+
+    .EXAMINATION{
+        position: absolute;
+        bottom: -411px;
+        right: 1px;
+        /* width: 911px; 
+    }*/
+}
+
+@media(min-width:760px) {
+    .exam {
+        display: none;
+    }
+
+    .print1 {
+        position: absolute;
+        top: 4.5pc;
+        left: 63pc;
+        background: pink;
+        border: 1px solid pink;
+        border-radius: 25px;
+        width: 12pc;
+    }
+
+    .class{
+        width: 61pc;
+        border-radius: 16px
+    }
+
+
+}
+
+@media print {
+
+    /* Styles to be applied only when printing */
+    body * {
+        visibility: visible;
+    }
+
+    .row-2{
+        display: block;
+        visibility: visible;
+    }
+
+
+    .class {
+        display: block;
+        visibility: visible;
+        position: absolute;
+        
+        right: 8pc;
+        /* transform: translate(-50%, -50%); */
+    }
+
+    .exam {
+        display: none;
+        visibility: hidden;
+        /* display: none; */
+    }
+    .print1{
+        display: none;
+        visibility: hidden;
+    }
+
+}

@@ -1,0 +1,73 @@
+.timetable {
+  border: 1px solid rgba(205, 199, 199, 0.511);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+  position: absolute;
+  top: 172px;
+  left: 270px;
+  width: calc(100% - 300px - 24px);
+  margin-bottom: 0;
+  background-color: white;
+}
+
+.row-1{
+  color: black;
+}
+
+.timetable:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.font {
+  font-size: xx-large;
+
+}
+
+.Class {
+  background: linear-gradient(45deg, #4d4cac, #5a59ab) !important;
+  color: white;
+  margin-top: 50px;
+  width: 95%;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+@media (max-width: 765px) {
+  .timetable {
+
+    width: 350px;
+    position: absolute;
+    left: 13px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+  }
+
+  .buttton{
+    margin: -100px;  
+  }
+
+
+  .row-1 {
+    float: left;
+    position: relative;
+    width: 90%;
+    right: -20px;
+    top: 4px;
+
+  }
+
+  .Class {
+    margin-left: -5px;
+  }
+}
+@media (min-width: 416px) and (max-width: 760px) {
+  .timetable{
+    width: 600px;
+  }
+}
+@media print {
+  .timetable {
+    visibility: visible;
+  }
+
+}

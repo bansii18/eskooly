@@ -1,0 +1,21 @@
+@media (max-width: 765px){
+    .sizing{
+        position: absolute;
+        top: 11pc;
+        width: 96%;
+        margin: 9px;
+        background: rgba(0, 0, 0, .05);
+        color: #ff808b !important;
+    }
+}
+@media (min-width: 765px){
+    .sizing{
+        width: 75%;
+        background-color: rgba(0, 0, 0, .05);
+        position: absolute;
+        top: 6pc;
+        left: 18pc;
+        color: #ff808b !important;
+    }
+}
+

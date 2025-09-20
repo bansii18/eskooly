@@ -1,0 +1,79 @@
+/* App.css */
+
+/* Sidebar styles */
+.sidebar {
+    width: 213px;
+    position: fixed;
+    height: 100%;
+    margin-top: 0px; /* Adjust the margin based on your Navbar height */
+    background-color: white; /* Set your desired background color */
+    padding-top: 75px;
+    box-shadow:6px 0px 2px rgba(4, 26, 55, 0.16);
+  }
+
+  .span{
+    padding: 8px;
+  }
+  
+  .sidebar-header {
+    /* text-align: center; */
+    margin-bottom: 10px;
+    color:rgb(45, 43, 43);
+    padding-left:10px;
+  }
+  
+  .list-unstyled {
+    padding: 5px 10px;
+  }
+  
+  .list-unstyled li {
+    margin-bottom: 10px;
+    padding: 2px;
+  }
+  
+  .list-unstyled li a {
+    text-decoration: none;
+    color:rgb(45, 43, 43); /* Set your desired text color */
+  }
+  
+  .list-unstyled li a:hover {
+    color: #007bff; /* Set your desired hover text color */
+  }
+  
+  .list-unstyled li.active a {
+    color: #fff; /* Set the active text color */
+    background-color: #007bff; /* Set the active background color */
+  }
+  
+  /* FontAwesome icons */
+  .pcoded-micon {
+    margin: 4px;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  @media (max-width: 765px) {
+   .sidebar{
+    height: 2250px;
+    z-index: 1;
+    margin-top: 70px;
+    background-color: whitesmoke;
+   }
+
+   .sidebar-header{
+    margin-top: -68px;
+   }
+}
+  
+  
+@media (min-width: 416px) and (max-width: 760px) {
+  .sidebar{
+   height: 2250px;
+   z-index: 1;
+   margin-top: 56px;
+   background-color: whitesmoke;
+  }
+
+  .sidebar-header{
+   margin-top: -68px;
+  }
+}

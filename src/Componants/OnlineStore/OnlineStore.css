@@ -1,0 +1,25 @@
+@media(max-width: 415px){
+    .figure{
+        /* position: fixed;
+        top: 37%; */
+        left: 7%;
+        /* transform: translate(-50%, -50%); */
+    }
+    .figure-caption{
+    position: relative;
+    left:86px;
+    font-weight: bold;
+    }
+}
+.figure{
+    position: absolute;
+    top: 33%;
+    right: 437px;
+    width: 335px;
+}
+.figure-caption{
+    position: absolute;
+    /* left:124px; */
+    font-weight: bold;
+    font-size: 200%;
+    }

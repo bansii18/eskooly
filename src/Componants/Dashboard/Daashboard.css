@@ -1,0 +1,121 @@
+@media(min-width:761px)
+{
+  .img-1{
+  width: 10pc;
+  position: absolute;
+    top: 1pc;
+    left: 33pc;
+}
+
+.profile{
+  position: absolute;
+  left: 17pc;
+  top: 6pc;
+  width: 16pc;
+  border-radius: 10px;
+}
+
+.f10{
+  font-size: 10px;
+  color: #9698d6 !important;
+}
+
+.m-main{
+  position: absolute;
+  top: 5pc;
+  left: 35pc;
+  width: 44pc;
+}
+
+.bg{
+  position: absolute;
+  left: 2pc;
+  width: 42pc;
+  top: 2pc;
+}
+.wlcm{
+  padding-top: 0;
+  padding-bottom: 2;
+  border-top-left-radius: 20;
+  border-top-right-radius: 5;
+  background: linear-gradient(45deg, #5e81f4, #7191f7) !important;
+  width: 40pc;
+  position: absolute;
+  top: 0.6pc;
+  left: 3pc;
+}
+.attand{
+      position: absolute;
+    top: 13pc;
+    left: 34pc;
+}
+
+
+.reportCard{
+  position: absolute;
+    top: -3pc;
+}
+
+.part-2{
+  position: absolute;
+    top: 20pc;
+    left:0pc;
+}
+
+}
+
+@media(max-width:760px)
+{
+  .profile{
+    position: absolute;
+    left: 0pc;
+    top: 4pc;
+    width: 25pc;
+    border-radius: 10px;
+  }
+  .bg{
+    position: absolute;
+    left: 2pc;
+    width: 23pc;
+    top: 2.2pc;
+  }
+  .img-1{
+    width: 7pc;
+    position: absolute;
+    top: 2pc;
+    left: 18pc;
+  }
+
+  .m-main{
+    position: absolute;
+    top: 87pc;
+    left: 1pc;
+    width: 25pc;
+  }
+  .wlcm{
+    padding-top: 0;
+    padding-bottom: 2;
+    border-top-left-radius: 20;
+    border-top-right-radius: 5;
+    background: linear-gradient(45deg, #5e81f4, #7191f7) !important;
+    width: 21pc;
+    position: absolute;
+    top: 0.6pc;
+    left: 3pc;
+  }
+
+
+
+  .reportCard{
+    position: absolute;
+    top: 75pc;
+    left: 5pc;
+  }
+
+  .part-2{
+    position: absolute;
+      top: 20pc;
+      left:-4pc;
+  }
+}
+

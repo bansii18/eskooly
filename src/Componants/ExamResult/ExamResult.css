@@ -1,0 +1,120 @@
+.details {
+    background: rgb(247, 229, 233);
+    border-radius: 36px;
+    margin-bottom: 52px;
+    position: absolute;
+    width: 76%;
+    top: 26%;
+    left: 22%;
+}
+.extra{
+    background: linear-gradient(45deg, #9698d6, #a9abdb);
+    border-radius: 16px;
+        width: 221px 
+    
+  
+}
+.form-1{
+    position: absolute;
+    top: 84px;
+    left: 47%;
+    width: 30%;
+}
+.pad{
+    padding: 6px;
+}
+
+.row{
+    margin-right:0px;
+}
+
+.print2{
+    display: none;
+    visibility: hidden;
+}
+
+@media (min-width: 765px) {
+   .btno{
+    color: rgb(0, 0, 0);
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-image: initial;
+    padding: 9px 10px 8px;
+    position: relative;
+    top: -3px;
+    left: 0%;
+   }
+}
+
+
+@media (min-width: 415px) and (max-width:765px) {
+   .form-1{
+    position: absolute;
+    top: 70px;
+    left: 25%;
+   } 
+
+   .btno{
+    position: absolute;
+    left: 19pc;
+    bottom: 0pc;
+    color: rgb(0, 0, 0);
+    background: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid gray;
+    border-left: none;
+    border-image: initial;
+    padding: 9px 10px 8px;
+   }
+}
+
+
+@media (max-width: 415px) {
+    .details{
+     position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .form-1{
+    position: relative;
+    top: 130px;
+    left: 10%;
+    }
+
+    .btno{
+        color: rgb(0, 0, 0);
+        background: none;
+        border-top: none;
+        border-right: none;
+        border-bottom: 1px solid gray;
+        border-left: none;
+        border-image: initial;
+        padding: 9px 10px 8px;
+        position: absolute;
+        top: -2px;
+        left: 259%;
+    }
+} 
+
+@media print{
+    body{
+        visibility: visible;
+    }
+    .details{
+        display: none;
+        visibility: hidden;
+    }
+    .hider{
+        display: none;
+        visibility: hidden;
+    }
+    .print2{
+        display: block;
+        visibility: visible;
+    }
+}
